@@ -1,0 +1,17 @@
+ - First,frameset.html is the main document.
+
+ - From that we click the respected image in frame2 to open product description for clicked product images 
+   frame3(cooker,fridge etc.,)
+
+ - dummy.html is a file to display when the framset.html is opened first time ie., every time the 
+   frameset.html is opened it is displayed as default in frame3 and frame4.
+    
+ - cooker-image.html [such (-image)named html files] is used to display their product images in frame4.
+
+ - Before mentioned html file, is accessed through anchor link from frame3 i.e., each product description 
+   contains "Click to see more images.." link in the bottom-right of the frame3.
+ 
+ - Simulation upto payment is done while it is not connected to a back-end.
+   [Just a simulation prototype]
+
+ - All files placed in the same folder for easier access. 

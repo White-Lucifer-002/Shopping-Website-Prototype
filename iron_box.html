@@ -1,0 +1,133 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="https://kit. fontawesome. com/a71707a89a. js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles.css">
+
+        <title>Iron Box</title>
+
+        <style>
+            a {
+            text-decoration: none;
+            }
+
+            a:hover {
+            text-decoration: none;
+            }
+
+            a {
+            text-decoration: none;
+            position: relative;
+            }
+            a:after {
+            border-radius: 1em;
+            border-top: .1em solid #2F56B0;
+            content: "";
+            position: absolute;
+                right: 100%;
+                bottom: .02em;
+                left: 0;
+            }
+            a:hover::after {right: 0;}
+            .box {
+                width: 250px;
+                height: 30px;
+                position:sticky;
+                left: 100px;
+                border: 2px solid aliceblue;
+                background-color:white;
+
+                padding-top: 18px;
+                padding-bottom: 18px;
+                box-shadow: 0px 15px 12px gray;
+                border-radius: 10px;
+                }
+            .box {
+                width: 250px;
+                height: 30px;
+                position:sticky;
+                left: 100px;
+                border: 2px solid aliceblue;
+                background-color:white;
+
+                padding-top: 18px;
+                padding-bottom: 18px;
+                box-shadow: 0px 15px 12px gray;
+                border-radius: 10px;
+                }
+        </style>
+    </head>
+
+    <body style="background-color: azure;">
+        <font size = 4.5, face = "Arial">
+        <b>Bajaj DX-7 1000W Dry Iron with Advance Soleplate and 
+            Anti-bacterial German Coating Technology, White</b></font>
+        <p>
+            <br>
+                <text style = "position: absolute; top:60px">
+                <u>Price:</u><b>₹740.00</b>
+                </text>
+
+            <br>
+            <font size = 4, face = "Trebuchet MS">
+            <text style = "position: absolute;top:100px">
+            <u>Description</u></font></text>
+        </p>
+
+        <br><br>
+        <p>
+            <font size = 3, face = "Camberia">
+            <text style = "position: absolute;top:120px">
+            <ul>
+                <li>Non-stick coated golden color sole plate</li>
+                <li>Super clean finish with pleasant aesthetics</li>
+                <li>Cool touch body with comfortable hand grip</li>
+                <li>Light weight and 360 degree swivel cord</li> 
+                <li>Thermal fuse for safety</li>
+                <li>Warranty: 2 years on product</li>
+                <li>Power: 1000 watts</li>
+                <li>Includes: Dry iron, User manual, Guarantee card and 
+                    <br>List of service centres.</li>
+                <li>Product Dimensions: 10x11x24 cm</li>
+                <li>Item Weight: 50g</li>
+            </ul></font>
+            </text>
+        </p>
+
+        <br>
+        <p>
+            <a href = "iron_box-image.html" target="F4">
+                <font face = "Times New Roman">
+                    <em><text style="text-align:right;">Click for more images..</text></em></font>
+            </a>
+            
+            <br><br>
+            <center>
+                <div class = "box" style = 'margin:auto;'>
+                    <a href = "address.html" target="F3"  style = "text-decoration: none;">
+                        <center><font face = "Tahoma" style = "font-size:30; color:black;">Buy Now!</font> </center>
+                    </a>
+                </div>
+            </center>
+            
+            <br><br>
+            <script src = "cart_func.js"></script>
+            <div id="popUpOverlay"></div>
+            <div id="popUpBox">
+            <div id="btn">
+            <i class="fas fa-check-circle fa-5x"></i>
+            <h1><font face = "Trebuchet MS">Item added</font></h1>
+            <div id="closeModal"></div>
+            </div>
+            </div>
+
+            <center>
+                <button onclick="Alert.render('You look very pretty today.')" class="btn">
+                    <font face = "Tahoma" style = "color:black;">Add to Cart</font>
+                </button>
+            </center>
+        </p>
+    </body>
+</html>

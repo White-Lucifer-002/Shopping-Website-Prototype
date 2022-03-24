@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    .btn{
+    width: 250px;
+    height: 70px;
+    position:sticky;
+    
+    border: 2px solid aliceblue;
+    background-color:white;
+    left:0px;
+    right:0px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    box-shadow: 0px 15px 12px gray;
+    border-radius: 10px;
+    cursor: pointer;
+    }
+    #popUpBox{
+    width: 300px;
+    overflow: hidden;
+    background:beige;
+    box-shadow: 0 7px 10px grey;
+    border-radius: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    padding: 10px;
+    text-align: center;
+    display: none;
+    }
